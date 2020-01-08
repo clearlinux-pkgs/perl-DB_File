@@ -4,7 +4,7 @@
 #
 Name     : perl-DB_File
 Version  : 1.853
-Release  : 2
+Release  : 3
 URL      : https://cpan.metacpan.org/authors/id/P/PM/PMQS/DB_File-1.853.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PM/PMQS/DB_File-1.853.tar.gz
 Summary  : 'Perl5 access to Berkeley DB version 1.x'
@@ -25,7 +25,6 @@ it under the same terms as Perl itself.
 Summary: dev components for the perl-DB_File package.
 Group: Development
 Provides: perl-DB_File-devel = %{version}-%{release}
-Requires: perl-DB_File = %{version}-%{release}
 Requires: perl-DB_File = %{version}-%{release}
 
 %description dev
@@ -86,5 +85,5 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/DB_File.pm
-/usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/DB_File/DB_File.so
+/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/DB_File.pm
+/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/DB_File/DB_File.so
