@@ -4,7 +4,7 @@
 #
 Name     : perl-DB_File
 Version  : 1.858
-Release  : 15
+Release  : 16
 URL      : https://cpan.metacpan.org/authors/id/P/PM/PMQS/DB_File-1.858.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PM/PMQS/DB_File-1.858.tar.gz
 Summary  : 'Perl5 access to Berkeley DB version 1.x'
@@ -85,5 +85,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/DB_File.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/DB_File/DB_File.so
+/usr/lib/perl5/*
