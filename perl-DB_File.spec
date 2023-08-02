@@ -4,7 +4,7 @@
 #
 Name     : perl-DB_File
 Version  : 1.858
-Release  : 17
+Release  : 18
 URL      : https://cpan.metacpan.org/authors/id/P/PM/PMQS/DB_File-1.858.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PM/PMQS/DB_File-1.858.tar.gz
 Summary  : 'Perl5 access to Berkeley DB version 1.x'
