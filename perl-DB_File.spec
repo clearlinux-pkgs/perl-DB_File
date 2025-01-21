@@ -5,7 +5,7 @@
 #
 Name     : perl-DB_File
 Version  : 1.859
-Release  : 22
+Release  : 23
 URL      : https://cpan.metacpan.org/authors/id/P/PM/PMQS/DB_File-1.859.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PM/PMQS/DB_File-1.859.tar.gz
 Summary  : 'Perl5 access to Berkeley DB version 1.x'
